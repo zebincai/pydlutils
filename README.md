@@ -16,11 +16,12 @@ python utils library for deep learning, slam or other python related job.
     place torch related high level api.
 
 ## Publications
+```
 @software{pydlutils,
   author = {zebincai},
   title = {pydlutils},
-  url = {https://github.com/zebincai/pydlutils},
+  url = {\url{https://github.com/zebincai/pydlutils}},
 }
-
+```
 ## License
 pydlutils has a Apache license, as found in the [LICENSE](LICENSE) file.
