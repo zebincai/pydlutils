@@ -2,7 +2,7 @@
 --------------------------------------------------------------------------------
 
 ## About
-python utils library for deep learning, slam or other python related job.
+python utils library for deep learning, computer vision, LLM, slam or other python related job.
 
 ## Module instruction
 
@@ -14,6 +14,14 @@ python utils library for deep learning, slam or other python related job.
 
 3. torch
     place torch related high level api.
+
+## Build and Upload
+```
+# build
+python setup.py sdist bdist_wheel
+# upload
+twine upload dist/*
+```
 
 ## Publications
 ```
