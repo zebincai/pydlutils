@@ -15,6 +15,12 @@ python utils library for deep learning, computer vision, LLM, slam or other pyth
 3. torch
     place torch related high level api.
 
+## Installation
+
+```
+pip install pydlutils
+```
+
 ## Build and Upload
 ```
 # build
