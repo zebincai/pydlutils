@@ -1,4 +1,3 @@
-import os
 from setuptools import setup, find_packages
 
 VERSION = '0.0.1'
@@ -6,11 +5,9 @@ DESCRIPTION = 'Utility library for deep learning'
 
 
 def main():
-    cwd = os.path.dirname(os.path.abspath(__file__))
     INSTALL_REQUIRES = []
     DEPENDENCY_LINKS = []
 
-    # with open(f"{cwd}/requirements.txt", "r") as file:
     with open("./requirements.txt", "r") as file:
         for line in file.readlines():
             line = line.strip()
