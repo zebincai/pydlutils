@@ -1,7 +1,7 @@
 {
-    "python.linting.flake8Enabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.linting.enabled": true,
-    "python.formatting.provider": "yapf",
-    "editor.formatOnSave": true
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": false,
+        "editor.formatOnSave": true,
+    },
 }
