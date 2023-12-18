@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.3'
-DESCRIPTION = 'Utility library for deep learning'
+VERSION = "0.0.4"
+DESCRIPTION = "Utility library for deep learning"
 
 
 def main():
@@ -21,7 +21,7 @@ def main():
 
         with open("./README.md", encoding="utf-8") as f:
             LONG_DESCRIPTION = f.read()
-    excludes = ['output', 'artifacts']
+    excludes = ["output", "artifacts"]
 
     setup(
         name="pydlutils",
@@ -37,19 +37,20 @@ def main():
         install_requires=INSTALL_REQUIRES,  # add any additional packages that
         dependency_links=DEPENDENCY_LINKS,
         include_package_data=True,
-        keywords=['python', 'compute vision', 'deep learning', 'LLM'],
-        license='Apache',
+        keywords=["python", "compute vision", "deep learning", "LLM"],
+        license="Apache",
         classifiers=[
             "Development Status :: 1 - Planning",
-            'Intended Audience :: Developers',
-            'Intended Audience :: Education',
-            'Intended Audience :: Science/Research',
-            'Topic :: Software Development',
-            'Topic :: Software Development :: Libraries',
-            'Topic :: Software Development :: Libraries :: Python Modules',
+            "Intended Audience :: Developers",
+            "Intended Audience :: Education",
+            "Intended Audience :: Science/Research",
+            "Topic :: Software Development",
+            "Topic :: Software Development :: Libraries",
+            "Topic :: Software Development :: Libraries :: Python Modules",
             "Programming Language :: Python :: 3",
             "Operating System :: MacOS :: MacOS X",
-        ])
+        ],
+    )
 
 
 if __name__ == "__main__":
